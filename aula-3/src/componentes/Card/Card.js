@@ -1,4 +1,5 @@
 import React from 'react'
+import { render } from '@testing-library/react';
 
 
 function Card(props) {
@@ -10,5 +11,6 @@ function Card(props) {
         </div>
     )
 }
+
 
 export default Card;
